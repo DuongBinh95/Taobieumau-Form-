@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đăng kí học viên</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Đăng kí học viên</legend>
+        <table style="background: orange">
+        <tr>
+            <td>Họ và tên :</td>
+            <td><input type="text" name="hovaten" placeholder="Nhap ten" required ></td>
+        </tr>
+        <tr>
+            <td>Ngày Sinh :</td>
+            <td><input type="text" name="date" placeholder="Nhap ngay sinh" required></td>
+        </tr>
+        <tr>
+            <td>Giới tính :</td>
+            <td><input type="radio" name="gioitinh" value="Nam">Nam
+                <input type="radio" name="gioitinh" value="Nam">Nữ
+            </td>
+
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select name="Lop">
+                    <option value="--chon lop--" selected="selected">--chon lop--</option>
+                    <option name="GC904">GC904</option>
+                    <option name="GC905">GC905</option>
+                    <option name="GC906">GC906</option>
+                    <option name="GC907">GC907</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" placeholder="Nhap email" required></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="number" name="phone" placeholder="Nhap so dien thoai" required></td>
+        </tr>
+        </table>
+        <input type="submit" value="Đăng kí">
+        <input type="reset" value="Nhập lại">
+    </fieldset>
+</form>
+
+</body>
+</html>
