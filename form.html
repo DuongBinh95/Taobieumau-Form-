@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biểu mẫu form</title>
+</head>
+<body>
+<div>
+    <h1>Bieu mau form </h1>
+    <form>
+        First name:<br/>
+        <input type="text" name="firstname" value="Mickey"><br/>
+        Last name : <br/>
+        <input type="text" name="lastname" value="John"><br/>
+        <br/>
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+<br/><br/>
+
+<div>
+    <h1>Thuộc tính action</h1>
+    <form action="https://www.google.com.vn">
+        <input type="text" name="g">
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+<br/><br/>
+
+<div>
+    <h1>Nhóm các dữ liệu của biểu mẫu lại với nhau</h1>
+    <fieldset>
+        <legend>Thong tin ca nhan</legend>
+        Ho va ten :<br/> <input type="text" name="hovaten" value="Duong"><br/>
+        Dia chi :<br/> <input type="text" name="diachi" value="HaNoi"><br/>
+        <input type="submit" value="Submit">
+
+    </fieldset>
+</div>
+<br/> <br/>
+<div>
+    <h1>Sử dụng select, option</h1>
+
+    <h2 style="color: red">Lựa chọn một thành phố từ drop-down:</h2>
+    <select name="city">
+        <option value="HaNoi">HaNoi</option>
+        <option value="HaNoi">HCM</option>
+        <option value="HaNoi">HaiPhong</option>
+        <option value="HaNoi">DaNang</option>
+        <option value="HaNoi">Hue</option>
+        <option value="HaNoi">Vinh</option>
+    </select>
+    <br/>
+
+    <h2 style="color: red">Lựa chọn nhiều thành phố từ list:</h2>
+    <select name="city" multiple>
+        <option value="HaNoi">HaNoi</option>
+        <option value="HaNoi">HCM</option>
+        <option value="HaNoi">HaiPhong</option>
+        <option value="HaNoi">DaNang</option>
+        <option value="HaNoi">Hue</option>
+        <option value="HaNoi">Vinh</option>
+    </select>
+</div>
+</body>
+</html>
